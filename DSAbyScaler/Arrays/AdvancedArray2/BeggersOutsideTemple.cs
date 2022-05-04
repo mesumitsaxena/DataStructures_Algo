@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAbyScaler.Arrays.AdvancedArray_1
+namespace DSAbyScaler.Arrays.AdvancedArray2
 {
     //There are A beggars sitting in a row outside a temple.Each beggar initially has an empty pot.
     //When the devotees come to the temple, they donate some amount of coins to these beggars.
