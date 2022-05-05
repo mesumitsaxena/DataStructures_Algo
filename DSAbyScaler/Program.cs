@@ -21,8 +21,10 @@ using DSAbyScaler.Arrays.Sorting;
 
 //RainTrappingProblem obj= new RainTrappingProblem();
 //obj.trap(new List<int>() { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 });
-List<List<int>> list = new List<List<int>>();
-list.Add(new List<int>() { 4,-1});
-list.Add(new List<int>() { 2,3 });
-SumofAllSubmatrices obj = new SumofAllSubmatrices();
-obj.Sum(list);
+//List<List<int>> list = new List<List<int>>();
+//list.Add(new List<int>() { 4,-1});
+//list.Add(new List<int>() { 2,3 });
+//SumofAllSubmatrices obj = new SumofAllSubmatrices();
+//obj.Sum(list);
+ArrayWithConsecutiveElements obj = new ArrayWithConsecutiveElements();
+obj.solve(new List<int>() { 2, 3, 1 });
