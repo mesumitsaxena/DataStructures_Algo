@@ -42,7 +42,11 @@ using DSAbyScaler.TwoPointers;
 //BoringSubString obj = new BoringSubString();
 //obj.solve("abcd");
 //Console.WriteLine(1 << 2);
-RemoveElement obj = new RemoveElement();
-obj.removeElement(new int[4]{ 3,2,2,3},3);
+//MinSetSize obj = new MinSetSize();
+//obj.MinSet(new int[10] {3, 3, 3, 3, 5, 5, 5, 2, 2, 7});
+MaxPointsonSameLine obj = new MaxPointsonSameLine();
+List<int> list = new List<int> { 1, 7, 11, 8, 11, 7, 1 };
+List<List<int>> B = new List<List<int>> { new List<int> { 0, 2, 4, 6 } };
+obj.solve(new List<int> { 6, -7, 5, 9, -9, -7 }, new List<int> { 7, 5, 5, 9, -8, 2 });
 
 

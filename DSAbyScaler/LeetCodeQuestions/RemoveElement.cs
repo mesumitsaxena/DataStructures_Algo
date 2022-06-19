@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSAbyScaler.LeetCodeQuestions
 {
+    //https://leetcode.com/problems/remove-element/
     internal class RemoveElement
     {
         public int removeElement(int[] nums, int val)
