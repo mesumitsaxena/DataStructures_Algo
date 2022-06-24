@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DSAbyScaler.Strings
+namespace DSAbyScaler.Strings.Strings1
 {
     internal class zAlgo
     {
@@ -19,6 +19,8 @@ namespace DSAbyScaler.Strings
             {
                 if (i > r)
                 {
+                    l = i;
+                    r = i;
                     //find the value using brute force
                     while (r < s.Length && s[r] == s[r - l])
                     {

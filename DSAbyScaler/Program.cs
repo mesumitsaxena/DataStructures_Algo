@@ -8,6 +8,9 @@ using DSAbyScaler.BinarySearch2;
 using DSAbyScaler.Hashing;
 using DSAbyScaler.LeetCodeQuestions;
 using DSAbyScaler.Sorting.Sorting2;
+using DSAbyScaler.Strings;
+using DSAbyScaler.Strings.Strings1;
+using DSAbyScaler.Strings.StringsWithHashSet_Map;
 using DSAbyScaler.StringsPatternMatching;
 using DSAbyScaler.TwoPointers;
 
@@ -44,9 +47,11 @@ using DSAbyScaler.TwoPointers;
 //Console.WriteLine(1 << 2);
 //MinSetSize obj = new MinSetSize();
 //obj.MinSet(new int[10] {3, 3, 3, 3, 5, 5, 5, 2, 2, 7});
-MaxPointsonSameLine obj = new MaxPointsonSameLine();
-List<int> list = new List<int> { 1, 7, 11, 8, 11, 7, 1 };
-List<List<int>> B = new List<List<int>> { new List<int> { 0, 2, 4, 6 } };
-obj.solve(new List<int> { 6, -7, 5, 9, -9, -7 }, new List<int> { 7, 5, 5, 9, -8, 2 });
+//MaxPointsonSameLine obj = new MaxPointsonSameLine();
+//List<int> list = new List<int> { 1, 7, 11, 8, 11, 7, 1 };
+//List<List<int>> B = new List<List<int>> { new List<int> { 0, 2, 4, 6 } };
+//obj.solve(new List<int> { 6, -7, 5, 9, -9, -7 }, new List<int> { 7, 5, 5, 9, -8, 2 });
+WindowString obj = new WindowString();
+Console.WriteLine(obj.minWindow("ADOBECODEBANC", "ABC"));
 
 
