@@ -1,7 +1,7 @@
 ## Detect Cycle and its Starting Point in LinkedList
 
 So suppose when slow reach to meeting point and it covers x distance, then fast will surely covers 2x distance because it running with double speed.
-Now considering slow is about to enter the loop and fast is inside the loop, suppose distance between fast and slow is d, then how many unit of distances slow and fast will meet? Answer is d distance right?, how? Suppose distance between fast and slow is 6, slow moves 1 unit and fast moves 2 unit, now distance between them is 5 and we are calculating this with respect of slow. So when slow moves 1 distance 1 distance is subtracted between fast and slow or we can say d, so after 6 unit distance between them will be 6-6 =0, means they will meet each other.
+Now considering slow is about to enter the loop and fast is inside the loop, suppose distance between fast and slow is d, then how many unit of distances slow and fast will meet? Answer is d distance right?, how? Suppose distance between fast and slow is 6, slow moves 1 unit and fast moves 2 unit, now distance between them is 5 and we are calculating this with respect of slow. So when slow moves 1 distance 1 distance is subtracted between fast and slow or we can say d, so after 6 unit, distance between them will be 6-6 =0, means they will meet each other.
 
 ![DetectCycleLL1](https://user-images.githubusercontent.com/83850703/175769199-273f145a-ad3e-49b6-b68d-ea00d5623d48.PNG)
 
