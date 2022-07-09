@@ -116,8 +116,10 @@ using DSAbyScaler.TwoPointers;
 //Console.WriteLine(obj.GetMin());
 //obj.Pop();
 //Console.WriteLine(obj.GetMin());
-LargestRectangleInHistogram obj = new LargestRectangleInHistogram();
-obj.LargestRectangleArea(new int[] { 2, 1, 5, 6, 2, 3 });
+MaximumRectangle obj = new MaximumRectangle();
+obj.solve(new List<List<int>>() { new List<int>() { 0, 1, 1 }, new List<int>() { 1, 0, 0 }, new List<int>() { 1, 0, 0 },
+new List<int>() { 1, 0, 0 },new List<int>() { 1, 0, 0 },new List<int>() { 1, 1, 1 },new List<int>() { 0, 1, 0 }});
+
 
 
 

@@ -64,7 +64,20 @@ namespace DSAbyScaler.Stack.Stack2
         // we can say for a bar, find the nearest min bar on left and right, that would be the area we would like to consider
         // and area will be right-left-1, why -1, 
         // because we dont want to include the bars which are minimum.
-        // we will use the same appraoch of nearest min element concept
+        // we will use the same appraoch of nearest min element concept.
+
+        // we will be using left nearest min and right nearest min, why not max?
+        // it's because in order to form a reactangle, that rectangle can not have bar's which are not atleast of same height
+        // So if we look for next max, we might have few bar's which are less than current bar height and hence we can't make rectangles
+        // So when we take nearest min height than A[i] it means till the point min height not found all the bar's height will be either greater
+        // or same than A[i]. and with greater height also we can form the rectangle, becasue we will have bar over there.
+
+        //detailed approach: https://github.com/mesumitsaxena/DataStructure_CSharp/tree/master/DSAbyScaler/Stack/Stack2
+        // we will be using left nearest min and right nearest min, why not max?
+        // it's because in order to form a reactangle, that rectangle can not have bar's which are not atleast of same height
+        // So if we look for next max, we might have few bar's which are less than current bar height and hence we can't make rectangles
+        // So when we take nearest min height than A[i] it means till the point min height not found all the bar's height will be either greater
+        // or same than A[i]. and with greater height also we can form the rectangle, becasue we will have bar over there
         public List<int> leftMin(int[] input)
         {
             Stack<int> leftMinStack = new Stack<int>();
