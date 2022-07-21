@@ -10,6 +10,11 @@ namespace DSAbyScaler
     {
         public void print(string A)
         {
+            //aabbcccb
+            //
+            //
+            //
+            // aa
             for (int i = 0; i < A.Length; i++)
             {
                 int count = 0;
