@@ -15,6 +15,7 @@ using DSAbyScaler.Strings;
 using DSAbyScaler.Strings.Strings1;
 using DSAbyScaler.Strings.StringsWithHashSet_Map;
 using DSAbyScaler.StringsPatternMatching;
+using DSAbyScaler.Trees.BST1;
 using DSAbyScaler.TwoPointers;
 
 //Console.WriteLine("Hello, World!");
@@ -116,9 +117,16 @@ using DSAbyScaler.TwoPointers;
 //Console.WriteLine(obj.GetMin());
 //obj.Pop();
 //Console.WriteLine(obj.GetMin());
-MaximumRectangle obj = new MaximumRectangle();
-obj.solve(new List<List<int>>() { new List<int>() { 0, 1, 1 }, new List<int>() { 1, 0, 0 }, new List<int>() { 1, 0, 0 },
-new List<int>() { 1, 0, 0 },new List<int>() { 1, 0, 0 },new List<int>() { 1, 1, 1 },new List<int>() { 0, 1, 0 }});
+//MaximumRectangle obj = new MaximumRectangle();
+//obj.solve(new List<List<int>>() { new List<int>() { 0, 1, 1 }, new List<int>() { 1, 0, 0 }, new List<int>() { 1, 0, 0 },
+//new List<int>() { 1, 0, 0 },new List<int>() { 1, 0, 0 },new List<int>() { 1, 1, 1 },new List<int>() { 0, 1, 0 }});
+
+CheckBSTwithOneChild obj = new CheckBSTwithOneChild();
+string ans=obj.solve(new List<int>()
+{
+    12, 1, 9, 6, 2
+});
+Console.WriteLine(ans);
 
 
 
