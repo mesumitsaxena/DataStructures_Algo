@@ -1,4 +1,4 @@
-package BST2;
+package Trees.BST2;
 
 class TreeNode {
     int val;

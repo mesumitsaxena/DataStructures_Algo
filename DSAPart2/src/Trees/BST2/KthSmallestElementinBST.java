@@ -1,7 +1,6 @@
-package BST2;
+package Trees.BST2;
 
 import java.util.HashMap;
-import java.util.List;
 
 //Given a binary search tree represented by root A,
 // write a function to find the Bth smallest element in the tree.
