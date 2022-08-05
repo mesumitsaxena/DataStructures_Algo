@@ -14,17 +14,27 @@ public class Main {
                 24,29,18,33,49,105,181));
         DistanceBetweenNodes obj= new DistanceBetweenNodes();
 
-        TreeNode root= new TreeNode(68);
-        TreeNode eightone = new TreeNode(81);
-        TreeNode eleven= new TreeNode(11);
-        TreeNode fiftyfive= new TreeNode(55);
-        TreeNode fourtynine= new TreeNode(49);
-        root.left=eightone;
-        root.right=eleven;
-        eightone.left=fiftyfive;
-        eightone.right=fourtynine;
-        NodesatDistanceKFromANode obj1= new NodesatDistanceKFromANode();
-        obj1.solve(root,11,2);
+        TreeNode root= new TreeNode(51);
+        TreeNode s17 = new TreeNode(17);
+        TreeNode s6= new TreeNode(6);
+        TreeNode f45= new TreeNode(45);
+        TreeNode f58= new TreeNode(58);
+        TreeNode f4= new TreeNode(4);
+        TreeNode e8= new TreeNode(8);
+        TreeNode s7= new TreeNode(7);
+        TreeNode f5= new TreeNode(5);
+        TreeNode t30= new TreeNode(30);
+
+        root.left=s17;
+        root.right=s6;
+        s17.left=f45;
+        s17.right=f58;
+        f45.left=f4;
+        f45.right=e8;
+        s6.left=f5;
+        s6.right=t30;
+        BoundaryTraversalOfBTree obj1= new BoundaryTraversalOfBTree();
+        obj1.solve(root);
 
     }
 }

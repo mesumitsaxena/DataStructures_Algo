@@ -84,6 +84,7 @@ public class MaxPathSum {
     // which is 14 and same with right
     int max=Integer.MIN_VALUE;
     public int MaxSum(TreeNode A){
+        float f1=2.5f;
         if(A==null) return 0;
         // get max value from a nodes of left subtree
         int left=MaxSum(A.left);
