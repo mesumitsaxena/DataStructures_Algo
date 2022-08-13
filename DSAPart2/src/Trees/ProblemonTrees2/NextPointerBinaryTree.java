@@ -65,9 +65,9 @@ public class NextPointerBinaryTree {
     // So if node's next is not null, then node.right.next=node.next.left
     public void connect(TreeLinkNode root) {
          TreeLinkNode curr=root;
-         while(curr!=null){
+         while(curr!=null && curr.left!=null){
              TreeLinkNode temp=curr;
-             while(temp.next!=null){
+             while(temp!=null){
                  temp.left.next=temp.right;
                  if(temp.next!=null){
                      temp.right.next=temp.next.left;
