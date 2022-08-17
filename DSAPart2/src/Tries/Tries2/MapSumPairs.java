@@ -92,6 +92,7 @@ public class MapSumPairs {
         return node.weight;
     }
     public ArrayList<Integer> solve(ArrayList<String> A, ArrayList<Integer> B) {
+
         Trie root= new Trie('#',-1);
         ArrayList<Integer> ans= new ArrayList<>();
         Map<String, Integer> map= new HashMap<>();
