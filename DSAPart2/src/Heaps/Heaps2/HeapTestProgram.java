@@ -6,8 +6,7 @@ import java.util.List;
 
 public class HeapTestProgram {
     public static void main(String[] args) {
-        HeapSort obj= new HeapSort();
-        List<Integer> list=obj.heapSort(new ArrayList<>(Arrays.asList(5,2,8,1,7,4,3,0,6)));
-        System.out.println(list);
+NMaxPairCombination obj= new NMaxPairCombination();
+obj.solve(new ArrayList<>(Arrays.asList(3, 2, 4, 2)), new ArrayList<>(Arrays.asList(4, 3, 1, 2)));
     }
 }

@@ -118,8 +118,6 @@ public class RunningMedian {
             }
             output.add(maxHeap.peek());
         }
-        ArrayList<Map.Entry<Integer,Integer>> list= new ArrayList<>();
-        list.add(new AbstractMap.SimpleEntry<>(10,20));
         return output;
     }
 }
