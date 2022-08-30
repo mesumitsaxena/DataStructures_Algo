@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Recursion1;
 
 //Given a number A, check if it is a magic number or not.
 //

@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.Recursion1;
 
 //Given a number A, we need to find the sum of its digits using recursion.
 //Example Input
