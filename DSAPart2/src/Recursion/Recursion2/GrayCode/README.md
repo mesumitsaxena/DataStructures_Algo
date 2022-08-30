@@ -64,6 +64,6 @@ For A=3, Same first 4 numbers are same as A=2 and 0 is appended in the end
 
 but next 4 numbers are in reverse of first 4 numbers of A=3 and 1 is appended in the end.
 
-**So for every number we look for its previous number result.
+**So for every number we look for its previous number result.**
 1. Copy that numbers and add 0 in the end
-2. Make a copy of the numbers and reverse it and add 1 in the end.**
+2. Make a copy of the numbers and reverse it and add 1 in the end.
