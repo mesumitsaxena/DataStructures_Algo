@@ -14,7 +14,7 @@
 
 As question states, gray code sequence starts with 0, and for every next sequence there is should be only 1 bit change
 
-Input value is the number of bits in a number, i.e, if A=0, means 2^0 =>1, number of bits will be only 1. so, corresponding value will be 0 because in question, it is said that sequence will start with 0.
+Input value is the number of bits in a number, i.e, if A=0, means 2^0 =>1, number of bits will be only 0. so, output will be only 1 value, corresponding value will be 0 because in question, it is said that sequence will start with 0.
 
 Now, next sequence will be A=1, means 2^1=2, so there will be two values with single bit, So first value will be 0 and other should be flip of previous so it will be 1
 
