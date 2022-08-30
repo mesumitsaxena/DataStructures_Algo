@@ -23,21 +23,21 @@ So, for A=1, values will be 0,1
 Now, for A=2, number of bits will be 2 and values will be 2^2=4, which means
 
 00
-01
-11
 10
+11
+01
 
-As you can see, all the above numbers have 1 bit differ in each sequence, so answer will be ( 00(0), 01(1), 11(3), 10(2))
+As you can see, all the above numbers have 1 bit differ in each sequence, so answer will be ( 00(0), 10(2), 11(3), 01(1))
 
 Now, for A=3, number of bits will be 3 and values will be 2^3 = 8, which means
 
 000
-010
-110
 100
-101
-111
+110
+010
 011
+111
+101
 001
 
 **Observation**
@@ -56,7 +56,7 @@ Now, for A=3, number of bits will be 3 and values will be 2^3 = 8, which means
 
 As you can see in the above table, for A=1, there is only 1 bit change which is 1.
 
-for A=2, if you see it carefully, first numbers are same as A=1 and 0 is appended in the end
+for A=2, if you see it carefully, first 2 numbers are same as A=1 and 0 is appended in the end
 
 But next two numbers are in reverse of first 2 numbers and appended 1 at the end
 
