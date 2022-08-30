@@ -58,12 +58,12 @@ for A=5, we can check if B is in first half as, if B<=2^3
 
 for A=6, we can check if B is in first half as, if B<=2^4
 
-**So for general A=i, we can check if B is in first half as, if B<=2^(i-2)
+**So for general A=i, we can check if B is in first half as, if B<=2^(i-2)**
 
 else B is in second half
 
 if B is in first half then look in previous row same B
 
-**if B is in second half, then look in previous row but B-2^(i-2), example: A=5, B=13, first half is till 8, so 13-8=5, look in A=4, 5th bit
+**if B is in second half, then look in previous row but B-2^(i-2), example: A=5, B=13, first half is till 8, so 13-8=5, look in A=4, 5th bit**
 
 Please refer the code for  more understanding
