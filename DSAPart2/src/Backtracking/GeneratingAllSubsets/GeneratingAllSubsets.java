@@ -1,4 +1,4 @@
-package Backtracking;
+package Backtracking.GeneratingAllSubsets;
 
 import java.util.ArrayList;
 import java.util.Collections;
