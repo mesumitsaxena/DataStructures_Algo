@@ -36,16 +36,16 @@ CombSum(i+1)
 
 Ex: 2,3,6, B=7
 
- for i=0, Add 2 in sum and in temp array, temp={2}, Call CombSum(i), do not incremenet i
- for i=0, Add 2 in sum and in temp array, temp={2,2}, sum=4, Call ComSum(i), do not increment i as we can include this element again and sum <B
- for i=0, Add 2 in sum and in temp array, temp={2,2,2}, Sum=6, Call ComSum(i) do not increment i as we can include this element again and sum <B  
- for i=0, Add 2 in sum and in temp array, temp={2,2,2,2}, Sum=8, Call ComSum(i), but now sum>B, so return
- for i=0, Now remove 2 from sum and from temp, Sum=6 and temp={2,2,2}, Call ComSum(i+1)  
- now, i=1, Add 3 in sum and in temp array, temp={2,2,2,3}, Sum=9, call ComSum(i), but Sum> B, So return
- for i=1, now remove 3 from sum and from temp, Sum=6, and temp={2,2,2}, Call ComSum(i+1)
- for i=2, Add 6, Sum=10 and temp is (2,2,2,6}, Sum>B, So return back to i=1, from there return back to i=0
- for i=0, remove 2 from sum and temp (2,2), and sum=4, now call ComSum(i+1)
- for i=1, Add 3, Sum=7 and temp is (2,2,3), Call ComSum(i)
+ for i=0, Add 2 in sum and in temp array, temp={2}, Call CombSum(i), do not incremenet i  
+ for i=0, Add 2 in sum and in temp array, temp={2,2}, sum=4, Call ComSum(i), do not increment i as we can include this element again and sum <B  
+ for i=0, Add 2 in sum and in temp array, temp={2,2,2}, Sum=6, Call ComSum(i) do not increment i as we can include this element again and sum <B    
+ for i=0, Add 2 in sum and in temp array, temp={2,2,2,2}, Sum=8, Call ComSum(i), but now sum>B, so return  
+ for i=0, Now remove 2 from sum and from temp, Sum=6 and temp={2,2,2}, Call ComSum(i+1)   
+ now, i=1, Add 3 in sum and in temp array, temp={2,2,2,3}, Sum=9, call ComSum(i), but Sum> B, So return  
+ for i=1, now remove 3 from sum and from temp, Sum=6, and temp={2,2,2}, Call ComSum(i+1)  
+ for i=2, Add 6, Sum=10 and temp is (2,2,2,6}, Sum>B, So return back to i=1, from there return back to i=0  
+ for i=0, remove 2 from sum and temp (2,2), and sum=4, now call ComSum(i+1)  
+ for i=1, Add 3, Sum=7 and temp is (2,2,3), Call ComSum(i)  
  B==Sum so add this temp to output.
  
  Continue this process untill all function calls are done, also check if i is going out of array bound then also return.
