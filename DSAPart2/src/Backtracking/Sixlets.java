@@ -47,11 +47,24 @@ import java.util.Queue;
 //
 //        No valid subsequence
 public class Sixlets {
+    int count=0;
     public int solve(ArrayList<Integer> A, int B) {
-        Queue<Integer> Q= new LinkedList<>();
-        Q.size();
-        Q.peek();
-        int a=Q.remove();
-        return 0;
+        Sixlets(0,A,B,0,0);
+        return count;
+    }
+    public void Sixlets(int i, ArrayList<Integer> A, int B, int l, int sum){
+        if(i==A.size()){
+            if(l==B && sum<=1000){
+                count++;
+            }
+            return;
+        }
+        sum+=A.get(i);
+        l++;
+        Sixlets(i+1,A,B,l,sum);
+        sum-=A.get(i);
+        l--;
+        Sixlets(i+1,A,B,l,sum);
+
     }
 }

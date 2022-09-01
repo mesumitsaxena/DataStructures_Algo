@@ -19,19 +19,18 @@ public class CombinationSum {
         return output;
     }
     public void combSum(int i, ArrayList<Integer> ans, ArrayList<Integer> A, int B, int sum, ArrayList<ArrayList<Integer>> output){
-        if(sum>B) return;
+        if(sum>B || i==A.size()) return;
         if(sum==B){
             ArrayList<Integer> newAns= new ArrayList<>(ans);
             output.add(newAns);
             return;
         }
-        for(int j=i;j<A.size();j++){
-            sum+=A.get(j);
-            ans.add(A.get(j));
-            combSum(j,ans,A,B,sum, output);
-            sum-=A.get(j);
-            ans.remove(ans.size()-1);
-        }
+        sum+=A.get(i);
+        ans.add(A.get(i));
+        combSum(i,ans,A,B,sum, output);
+        sum-=A.get(i);
+        ans.remove(ans.size()-1);
+        combSum(i+1,ans,A,B,sum, output);
 
     }
 }
