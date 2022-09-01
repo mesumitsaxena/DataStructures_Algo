@@ -22,10 +22,10 @@ i=1, l=1, swap 7 with 7 Step 2. by this fixing 7 now call method Permutation(i+1
 i=2, l=2, swap 8 with 8 Step 2, by this fixing 8 now call method Permutation(i+1) - Step 3  
 i=3, now i==n, so add A into output [4,7,8] - Step 0  
 
-i=2, l=2, swap back 8 with 8 - Step 4, increase l++, l>size, return back to Step4 for i=1 and l=1
-i=1, l=1, swap back 7 with 7 - Step 4, increase l++. i=1, l=2 -Step 1
-i=1, l=2, swap 7 with 8 - Step 2, by fixing 8, now call method Permutation(i+1) -Step 3
-i=2, l=2, swap 7 with 7 - Step 2, by fixing 7, now call method Permutation(i+1) - Step 3
+i=2, l=2, swap back 8 with 8 - Step 4, increase l++, l>size, return back to Step 4 for i=1 and l=1  
+i=1, l=1, swap back 7 with 7 - Step 4, increase l++. i=1, l=2 -Step 1  
+i=1, l=2, swap 7 with 8 - Step 2, by fixing 8, now call method Permutation(i+1) -Step 3  
+i=2, l=2, swap 7 with 7 - Step 2, by fixing 7, now call method Permutation(i+1) - Step 3  
 i=3, now i==n, So add A into output ([4,7,8],[4,8,7])
 ...   
 ... and so on   
